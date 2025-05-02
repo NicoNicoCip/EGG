@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  font-family: "Courier New", monospace;
+}
+
+body {
+  background-color: #000033;
+  color: #00FF00;
+  
+  background-image: url('https://www.gifcities.org/images/stars.gif');
+  background-repeat: repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.layout {
+  width: 80%;
+  margin: 0 auto;
+  border: 3px ridge lime;
+  background-color: black;
+}
+
+.header {
+  text-align: center;
+  background-color: navy;
+  color: yellow;
+  padding: 10px;
+  font-size: 24px;
+  border-bottom: 2px dashed lime;
+}
+
+.sidebar {
+  width: 200px;
+  vertical-align: top;
+  background-color: darkblue;
+  padding: 10px;
+  border-right: 2px dashed lime;
+}
+
+.sidebar ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.sidebar a {
+  color: cyan;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background-color: lime;
+  color: black;
+}
+
+.content {
+  padding: 15px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  background-color: navy;
+  color: white;
+  border-top: 2px dashed lime;
+}
+
+/* Deprecated tags (to make it feel authentic!) */
+blink {
+  animation: blink-animation 1s steps(1, start) infinite;
+}
+
+@keyframes blink-animation {
+  50% {
+    visibility: hidden;
+  }
+}
