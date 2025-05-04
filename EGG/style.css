@@ -5,36 +5,47 @@
 
 body {
   background-color: #000033;
-  color: #00FF00;
+  color: #FFFF00;
   
-  background-image: url('https://www.gifcities.org/images/stars.gif');
+  background-image: url("https://web.archive.org/web/20090725223313/http://www.geocities.com/arielpurkey/starstwinkle.gif");
   background-repeat: repeat;
   margin: 0;
   padding: 0;
+
+  overflow-y: scroll;
+}
+
+b {
+  color: #ff0000;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+  color: inherit;
 }
 
 .layout {
   width: 80%;
   margin: 0 auto;
-  border: 3px ridge lime;
-  background-color: black;
+  border: 3px ridge #FFFF00;
+  background-color: #000000a4;
 }
 
 .header {
   text-align: center;
-  background-color: navy;
-  color: yellow;
+  background-color: #292852;
+  color: #ffff00;
   padding: 10px;
   font-size: 24px;
-  border-bottom: 2px dashed lime;
+  border-bottom: 2px dashed #ffff00;
 }
 
 .sidebar {
   width: 200px;
   vertical-align: top;
-  background-color: darkblue;
+  background-color: #292852;
   padding: 10px;
-  border-right: 2px dashed lime;
+  border-right: 2px dashed #ffff00;
 }
 
 .sidebar ul {
@@ -43,13 +54,13 @@ body {
 }
 
 .sidebar a {
-  color: cyan;
+  color: #ffffff;
   text-decoration: none;
 }
 
-.sidebar a:hover {
-  background-color: lime;
-  color: black;
+a:hover {
+  background-color: #ffff00;
+  color: #000000;
 }
 
 .content {
@@ -60,13 +71,13 @@ body {
   text-align: center;
   font-size: 14px;
   padding: 10px;
-  background-color: navy;
-  color: white;
-  border-top: 2px dashed lime;
+  background-color: #292852;
+  color: #ffffff;
+  border-top: 2px dashed #ffff00;
 }
 
 /* Deprecated tags (to make it feel authentic!) */
-blink {
+.blink {
   animation: blink-animation 1s steps(1, start) infinite;
 }
 
